@@ -15,7 +15,7 @@
 		DA84B9311E8DFEF0003BF3D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA84B92F1E8DFEF0003BF3D7 /* LaunchScreen.storyboard */; };
 		DA84B93C1E8DFEF0003BF3D7 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84B93B1E8DFEF0003BF3D7 /* testTests.m */; };
 		DA84B9471E8DFEF0003BF3D7 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84B9461E8DFEF0003BF3D7 /* testUITests.m */; };
-		DA84B9561E8DFF07003BF3D7 /* AutoScrollTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84B9541E8DFF07003BF3D7 /* AutoScrollTextView.m */; };
+		DA84B9561E8DFF07003BF3D7 /* YQScrollText.m in Sources */ = {isa = PBXBuildFile; fileRef = DA84B9541E8DFF07003BF3D7 /* YQScrollText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		DA84B9421E8DFEF0003BF3D7 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA84B9461E8DFEF0003BF3D7 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		DA84B9481E8DFEF0003BF3D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA84B9541E8DFF07003BF3D7 /* AutoScrollTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoScrollTextView.m; sourceTree = "<group>"; };
-		DA84B9551E8DFF07003BF3D7 /* AutoScrollTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoScrollTextView.h; sourceTree = "<group>"; };
+		DA84B9541E8DFF07003BF3D7 /* YQScrollText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQScrollText.m; sourceTree = "<group>"; };
+		DA84B9551E8DFF07003BF3D7 /* YQScrollText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQScrollText.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +108,8 @@
 				DA84B9251E8DFEF0003BF3D7 /* AppDelegate.m */,
 				DA84B9271E8DFEF0003BF3D7 /* ViewController.h */,
 				DA84B9281E8DFEF0003BF3D7 /* ViewController.m */,
-				DA84B9551E8DFF07003BF3D7 /* AutoScrollTextView.h */,
-				DA84B9541E8DFF07003BF3D7 /* AutoScrollTextView.m */,
+				DA84B9551E8DFF07003BF3D7 /* YQScrollText.h */,
+				DA84B9541E8DFF07003BF3D7 /* YQScrollText.m */,
 				DA84B92A1E8DFEF0003BF3D7 /* Main.storyboard */,
 				DA84B92D1E8DFEF0003BF3D7 /* Assets.xcassets */,
 				DA84B92F1E8DFEF0003BF3D7 /* LaunchScreen.storyboard */,
@@ -282,7 +282,7 @@
 				DA84B9291E8DFEF0003BF3D7 /* ViewController.m in Sources */,
 				DA84B9261E8DFEF0003BF3D7 /* AppDelegate.m in Sources */,
 				DA84B9231E8DFEF0003BF3D7 /* main.m in Sources */,
-				DA84B9561E8DFF07003BF3D7 /* AutoScrollTextView.m in Sources */,
+				DA84B9561E8DFF07003BF3D7 /* YQScrollText.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,11 +1,11 @@
 
 
-#import "AutoScrollTextView.h"
+#import "YQScrollText.h"
 
 #define kPadding 1
 #define kLabelMargin 10
 
-@interface AutoScrollTextView ()<UIScrollViewDelegate>
+@interface YQScrollText ()<UIScrollViewDelegate>
 
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (strong, nonatomic) UILabel *textLabel;
@@ -15,7 +15,7 @@
 
 @end
 
-@implementation AutoScrollTextView
+@implementation YQScrollText
 
 - (void)layoutSubviews {
     [super layoutSubviews];

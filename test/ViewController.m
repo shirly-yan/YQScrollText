@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AutoScrollTextView.h"
+#import "YQScrollText.h"
 
 @interface ViewController ()
 
@@ -17,9 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    AutoScrollTextView *titleView = [[AutoScrollTextView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width-100, 40)];
-    titleView.text = @"这是标题这是标题这是标题这是标题这是标题这是标题";
-    self.navigationItem.titleView = titleView;
+    YQScrollText *scrollText = [[YQScrollText alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width-100, 40)];
+    scrollText.text = @"这是标题这是标题这是标题这是标题这是标题这是标题";
+    self.navigationItem.titleView = scrollText;
     
 }
 

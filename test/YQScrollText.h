@@ -1,7 +1,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AutoScrollTextView : UIView
+@interface YQScrollText : UIView
 
 @property (copy, nonatomic) NSString *text;
 @property (strong, nonatomic) UIFont *textFont;
